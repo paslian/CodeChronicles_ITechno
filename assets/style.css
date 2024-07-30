@@ -58,6 +58,16 @@ a {
   background-size: cover;
 }
 
+#about {
+  padding-top: 90px;
+  height: 100vh;
+  background-color: #050505;
+}
+
+.carousel-caption {
+  color: black;
+}
+
 #galleryWebsite {
   padding-top: 80px;
   height: 100vh;
@@ -77,9 +87,32 @@ a {
   font-weight: bold;
 }
 
-#history {
-  padding-top: 80px;
+#componentsWeb {
   height: 100vh;
+}
+
+a .logo-img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+a .logo-html-img {
+  width: 100%;
+}
+
+a .logo-css-img {
+  width: 40%;
+  margin-left: 110px;
+}
+
+a .logo-js-img {
+  width: 100%;
+}
+
+.container:hover .logo-img {
+  transform: scale(1.2);
 }
 
 .slider {
@@ -307,6 +340,10 @@ a {
     display: block;
   }
 
+  #componentsWeb {
+    padding-top: 80px;
+  }
+
   .timeline::before,
   .timeline::after {
     width: 50px;
@@ -318,6 +355,9 @@ a {
 
   .timeline .info {
     display: none;
+  }
+  #about {
+    height: 40vh;
   }
 }
 

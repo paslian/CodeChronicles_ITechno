@@ -21,6 +21,21 @@
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
     <link rel="stylesheet" href="assets/style.css" />
+    <style>
+      @font-face {
+        font-family: "Rowdies";
+        src: url("assets/font/Rowdies-Bold.ttf") format("truetype"); /* Ganti dengan format yang benar */
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: "RowdiesReg";
+        src: url("assets/font/Rowdies-Regular.ttf") format("truetype"); /* Ganti dengan format yang benar */
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar">
@@ -63,6 +78,119 @@
     <section id="landingPage" style="background-image: url(assets/img/bg4.jpg)">
       <div class="container d-flex align-items-center justify-content-center">
         <h1 id="element"></h1>
+      </div>
+    </section>
+    <section id="about">
+      <div class="container">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner rounded-2">
+            <div class="carousel-item active">
+              <img
+                src="assets/img/corousel1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div
+                  class="card"
+                  style="background-color: white; border: 1px solid #ccc"
+                >
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: black">
+                      Code Chronicles is designed to introduce the concept of
+                      web innovation and how to navigate the online world more
+                      effectively.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/corousel3.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div
+                  class="card"
+                  style="background-color: white; border: 1px solid #ccc"
+                >
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: black">
+                      In today's digital era, the ability to develop engaging
+                      and functional applications and websites is crucial for
+                      future developers.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/corousel2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div
+                  class="card"
+                  style="background-color: white; border: 1px solid #ccc"
+                >
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: black">
+                      We invite you to learn how to create innovative and
+                      compelling online experiences while understanding the
+                      challenges and opportunities present in web development.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="assets/img/corousel4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div
+                  class="card"
+                  style="background-color: white; border: 1px solid #ccc"
+                >
+                  <div class="card-body">
+                    <h5 class="card-title" style="color: black">
+                      Discover the latest techniques and tools in web
+                      development that can enhance your skills as a developer.
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </section>
     <section id="galleryWebsite">
@@ -146,14 +274,69 @@
         </div>
       </div>
     </section>
-    <section id="history">
-      <div class="container"></div>
-    </section>
-    <section id="question" style="background-image: url(assets/img/bg3.jpg)">
-      <div class="container">
-        <h1>How to create Website?</h1>
+    <section id="componentsWeb">
+      <div class="row" style="height: 100%">
+        <div
+          class="col-md-4"
+          style="
+            background-image: url(assets/img/bg7.jpg);
+            background-size: cover;
+          "
+        >
+          <div
+            class="container d-flex justify-content-center align-items-center"
+            style="height: 100%"
+          >
+            <a href="./html.html" type="button">
+              <img
+                src="assets/img/logo_html.png"
+                alt=""
+                class="logo-html-img logo-img"
+            /></a>
+          </div>
+        </div>
+        <div
+          class="col-md-4"
+          style="
+            background-image: url(assets/img/bg6.jpg);
+            background-size: cover;
+          "
+        >
+          <div
+            class="container d-flex justify-content-center align-items-center"
+            style="height: 100%"
+          >
+            <a href="./css.html" type="button">
+              <img
+                src="assets/img/logo_css.png"
+                alt=""
+                class="logo-css-img logo-img"
+            /></a>
+          </div>
+        </div>
+        <div
+          class="col-md-4"
+          style="
+            background-image: url(assets/img/bg7.jpg);
+            background-size: cover;
+          "
+        >
+          <div
+            class="container d-flex justify-content-center align-items-center"
+            style="height: 100%"
+          >
+            <a href="./css.html" type="button">
+              <img
+                src="assets/img/logo_jss.png"
+                alt=""
+                class="logo-js-img logo-img"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </section>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
