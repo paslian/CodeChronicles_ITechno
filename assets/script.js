@@ -14,6 +14,11 @@ document.addEventListener("DOMContentLoaded", function () {
     .type("{ H", { delay: 400 })
     .move(null, { to: "END" })
     .go();
+
+  new TypeIt("#questionhtml", {
+    strings: ["helo Word }"],
+  })
+    .go();
 });
 
 document.addEventListener("DOMContentLoaded", function () {

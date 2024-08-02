@@ -60,6 +60,79 @@
         ></a>
       </div>
     </nav>
+    <section id="implement" class="mb-3">
+      <div class="container">
+        <script
+          type="module"
+          src="https://unpkg.com/@splinetool/viewer@1.9.3/build/spline-viewer.js"
+        ></script>
+        <spline-viewer
+          url="https://prod.spline.design/wdGLtNmROoir8TiF/scene.splinecode"
+          style="cursor: pointer"
+          onclick="showAlert()"
+        ></spline-viewer>
+      </div>
+    </section>
+    <section id="intro" class="mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">Pengenalan JavaScript</div>
+              <div class="card-body">
+                <p class="card-text">
+                  JavaScript (JS) adalah bahasa pemrograman yang digunakan untuk
+                  membuat halaman web interaktif. JavaScript adalah bahasa
+                  pemrograman yang berjalan di sisi klien (browser) dan
+                  memungkinkan pengembang untuk membuat elemen web yang dinamis
+                  dan interaktif.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card">
+              <div class="card-header">
+                Penggunaan JavaScript dalam Pengembangan Web
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  JavaScript digunakan untuk berbagai keperluan seperti validasi
+                  form, manipulasi DOM, animasi, dan komunikasi dengan server.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="structureJs">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 mt-md-0 mt-2">
+            <h2>Struktur Dasar JavaScript</h2>
+          </div>
+          <div class="col-md-6 mt-5">
+            <div class="card">
+              <div class="card-body">
+                <pre>
+                    &lt;script&gt;
+                    // Ini adalah komentar dalam JavaScript
+                    alert('Ini adalah penggunaan JavaScript untuk menangani event!');
+                    &lt;/script&gt;
+                                      </pre
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+      function showAlert() {
+        alert("Ini adalah penggunaan JavaScript untuk menangani event!");
+      }
+    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
